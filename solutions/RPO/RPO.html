@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dummy1.css">
+    <link rel="stylesheet" href="NavBar.css">
+    <link rel="stylesheet" href="csstemp.css">
+    <!--Our project edit-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--numbers count-->
+    <script src="https://kit.fontawesome.com/d2edc50336.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!--js for bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!--2 js for bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <title> RECRUITMENT PROCESS OUTSOURCING</title>
+    <style>
+        * {
+            margin: 0;
+            
+        }
+        /* h1{
+     padding-top: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    } */
+        
+        .parent {
+            padding-top: 40px;
+            display: flex;
+            justify-content: space-around;
+        }
+/*         
+        .lefted {
+            border: 1px solid lightgray;
+            background-color: white;
+            width: 20%;
+            padding: 20px;
+            text-align: justify;
+        }
+        
+        .righted {
+            border: 1px solid lightgray;
+            background-color: white;
+            width: 70%;
+            padding-left: 30px;
+            /* padding: 20px; 
+         */
+
+         
+        h1 {
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 10px;
+            font-size: 35px;
+        }
+        
+        h1:hover {
+            color: rgb(255, 72, 0);
+            border-radius: 5px;
+            box-shadow: 0 0 5px #fd7f68, 0 0 5px #ee7262;
+        }
+        
+       
+        
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 35px;
+            letter-spacing: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        li {
+            color: #000;
+            font-size: 18px;
+            padding: 10px;
+        }
+        
+        .contents {
+            position: relative;
+            background: #1b1b1b;
+            color: white;
+        }
+        
+        .contents:hover {
+            display: block;
+        }
+        
+        .contents li a:hover {
+            color: rgb(255, 72, 0);
+            border-radius: 5px;
+            box-shadow: 0 0 5px #fd7f68, 0 0 5px #ee7262;
+        }
+        .matter{
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        h2{
+            text-align: center;
+            color: rgb(0, 25, 245);
+            padding: 10px;
+           
+            font-size: 20px;
+            line-height: 35px;
+            letter-spacing: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2:hover {
+            color: rgb(255, 72, 0);
+            
+        }
+        .sub{
+             color: rgb(255, 72, 0);
+        }
+        .sub:hover{
+            color: rgb(0, 25, 245);
+        }
+        .lef{
+            padding-left: 100px;
+            
+        }
+        .reg{
+            padding-left: 100px;
+            
+        }
+        .tex{
+            padding-top: 100px;
+            padding-right: 100px;
+        }
+        @media only screen and (max-width:64rem) {
+            .lefted {
+                width: 80%;
+                padding: 0;
+            }
+            .righted {
+                width: 100%;
+            }
+            .brand {
+                font-size: 10px;
+            }
+            h2,h3 {
+                font-size: 20px;
+            }
+            .dropdown-item{
+                font-size: 10px;
+            }
+        }
+        /* @media only screen and (max-width:500px) {
+  .parent, .left, .right {
+    width: 100%;
+  } */
+        
+        @media only screen and (max-width:48rem) {
+            .lefted {
+                width: 50%;
+                padding: 0;
+            }
+            .righted {
+                width: 65%;
+            }
+            .brand {
+                font-size: 10px;
+            }
+            h2,h3 {
+                font-size: 20px;
+            }
+            .dropdown-item{
+                font-size: 10px;
+            }
+        }
+        
+        @media only screen and (max-width:32rem) {
+            .lefted {
+                width: 40%;
+                padding: 0;
+            }
+            .righted {
+                width: 65%;
+            }
+            .brand {
+                font-size: 10px;
+            }
+            h2,h3 {
+                font-size: 20px;
+            }
+            .dropdown-item{
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+<header class="header">
+    <nav class="navbar navbar-expand-lg header-nav fixed-top">
+        <div class="container-fluid">
+              
+        <p>
+            <a  href="../../homepage/home.html" > 
+            <img  class="brand" src="../../homepage/homepage images/marlog.jpeg"   width="140" height="90" style="margin-top: 20px;" >
+            </a>
+        </p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../homepage/home.html">INSIGHT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SECTORS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../services/power/power.html"> POWER</a></li>
+                            <li><a class="dropdown-item" href="../../services/Oil and gas/oilandgas.html">OIL & GAS</a></li>
+                            <li><a class="dropdown-item" href="../../services/infra/infra.html">INFRASTRUCTURE</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SOLUTIONS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../RPO/RPO.html"> RPO</a></li>
+                            <li><a class="dropdown-item" href="../PS/PS.html">PERMANENT STAFFING</a></li>
+                            <li><a class="dropdown-item" href="../TS/TS.html">TEMPORARY STAFFING</a></li>
+                        </ul>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../form.php">JOIN US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../contact/contact.html">CONTACT US</a>
+                    </li>
+                   
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+
+    
+    
+</header>
+
+
+
+
+
+
+
+
+
+    
+<br><br><br> <br><br><br><br><br><br>
+
+
+    
+        <div class="matter" >
+            <h1>RECRUITMENT PROCESS OUTSOURCING</h1><br>
+            <p>Looking to recruit new talent without getting bogged down by the hassles of HR management? Employee leasing solutions may be your best choice to get new hires on board swiftly and painlessly.</p>
+            
+
+            
+            <h2>WHAT IS RECRUITMENT PROCESS OUTSOURCING?</h2><br>
+
+            <br>
+            <p>When you started your business, you probably did not imagine that you would be spending time dealing with the administrative troubles of employee recruitment. You have a business to run - that's what you signed up for, not filing paperwork for every new employee that you hire.</p>
+            <br>
+
+           
+
+            <h2>LEAVE YOUR HIRING WOES TO Marmag CONSULTING</h2><br>
+
+            <p>Marmag Consulting is one of the leading staff augmentation services in India. We offer cost-effective, full-service Human Resource Management for small and medium businesses that may not have the necessary infrastructure or bandwidth to perform tedious administrative tasks related to hiring. When you hire us, we will take over all the HR management tasks and work like your own HR department.</p>
+            <br>
+
+            
+
+            <h2>RECRUITMENT PROCESS OUTSOURCING ALLOWS YOU TO FOCUS ON YOUR CORE BUSINESS</h2><br>
+
+           
+
+            
+
+            <p>Many small and medium-sized businesses do not have the luxury of in-house “departments” to handle payroll and hiring. That's why most of these companies turn to employee leasing companies that offer a wide range of services.</p>
+            <br>
+
+            
+
+          
+
+
+            <h2>IS RECRUITMENT PROCESS OUTSOURCING THE RIGHT CHOICE FOR YOU?</h2><br>
+
+            
+
+            
+            <p>Marmag Consulting can help you figure out if RECRUITMENT PROCESS OUTSOURCING might be the best choice for your business. Request a consultation with us by filling out the contact form below.</p>
+            <br>
+
+
+        </div>
+        <br><br>
+
+    <!-- </div> -->
+    
+    <div class="footlogo">
+        <p>MARMAG CAREER BOOSTER</p>
+      </div>
+  
+      <footer>
+        <div class="footer-container">
+          <div class="left-col">
+           
+           
+            <p class="rights-text">© MARMAG INFRA PVT. LTD. All Rights Reserved 2021</p>
+          </div>
+  
+          <div class="right-col">
+            <div class="social-media">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</body>
+
+
+
+
+
+</html>
